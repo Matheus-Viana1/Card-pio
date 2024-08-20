@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMBURGUERIA DO BAIRRO</title>
+    <link rel='shortcut icon' href='imagens/favicon.ico'>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estiloscardapio.css">
+</head>
+
+<body>
+    <div id="geral">
+        <section id="cabecalho">
+            <div id="logo">
+                <a href="index.html"> <img src="imagens/logo.jpg" alt="Logo"></a>
+            </div>
+            <nav id="menu">
+                <a href="index.html"> HOME </a>
+                <a href="cardapio.html"> CARDÁPIO </a>
+                <a href="cadastro.html"> CADASTRO </a>
+                <a href="contato.html"> CONTATO </a>
+                <a href="sobre.html"> SOBRE </a>
+            </nav>
+        </section>
+
+        <section id="conteudo">
+            <div id="cardapio">
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="/imagens/IMagem1.jfif" alt="Hambúrguer 1">
+                    </div>
+                    <div class="descricao">HAMBÚRGUER DE QUEIJO</div>
+                    <div class="detalhe">Carne, queijo cheddar, alface, tomate, maionese</div>
+                    <div class="valor">R$ 30,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-nome="HAMBÚRGUER DE QUEIJO" data-preco="30.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="/imagens/ImagemII.jfif" alt="Hambúrguer 2">
+                    </div>
+                    <div class="descricao">HAMBÚRGUER BACON</div>
+                    <div class="detalhe">Carne, bacon crocante, queijo prato, cebola caramelizada</div>
+                    <div class="valor">R$ 35,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-nome="HAMBÚRGUER BACON" data-preco="35.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="/imagens/ImagemIII.jfif" alt="Hambúrguer 3">
+                    </div>
+                    <div class="descricao">HAMBÚRGUER VEGANO</div>
+                    <div class="detalhe">Hambúrguer vegetal, alface, tomate, molho barbecue</div>
+                    <div class="valor">R$ 28,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-nome="HAMBÚRGUER VEGANO" data-preco="28.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="/imagens/ImagemIIII.jfif" alt="Hambúrguer 4">
+                    </div>
+                    <div class="descricao">HAMBÚRGUER APIMENTADO</div>
+                    <div class="detalhe">Carne, queijo pepper jack, jalapeños, molho picante</div>
+                    <div class="valor">R$ 33,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-nome="HAMBÚRGUER APIMENTADO" data-preco="33.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="./imagens/hamburguer.jpg" alt="Hambúrguer 5">
+                    </div>
+                    <div class="descricao">HAMBÚRGUER CLÁSSICO</div>
+                    <div class="detalhe">Carne, queijo cheddar, alface, tomate, picles</div>
+                    <div class="valor">R$ 27,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-nome="HAMBÚRGUER CLÁSSICO" data-preco="27.00">ADICIONAR</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sacola">
+                <div id="btnSacola">
+                    <div id="total">Total: <div id="vlrTotal">R$ 0,00</div></div>
+                    <button id="finalizarCompra">Finalizar Compra</button>
+                </div>
+                <div id="itens">
+                    <!-- Itens da sacola serão adicionados aqui -->
+                </div>
+            </div>
+        </section>
+
+        <footer id="rodape">
+            <p>&copy; 2023 Todos os Direitos reservados para HAMBURGUERIA DO BAIRRO</p>
+            <p>CNPJ.: 00.008.111/1XXXX-00 - Rua Sei la das Quantas, s/n, ARACAJU, SE, 49066-321 tel.: 079910111214</p>
+        </footer>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

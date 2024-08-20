@@ -1,0 +1,72 @@
+/* estiloscardapio.css */
+
+/* Restante do CSS... */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Ajusta o conteúdo do card para que o botão de adicionar fique alinhado */
+}
+
+.imgCard {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.imgCard img {
+    width: 100%;
+    height: auto; /* Garante que a imagem mantenha a proporção */
+    display: block; /* Remove espaços indesejados abaixo da imagem */
+}
+
+.descricao, .detalhe, .valor {
+    text-align: center;
+}
+
+.btnAdd {
+    margin-top: auto; /* Faz o botão de adicionar ir para o final do card */
+    width: 100%; /* Faz o botão de adicionar ocupar toda a largura do card */
+    text-align: center;
+}
+
+.btnAdd button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%; /* Faz o botão ocupar toda a largura disponível */
+    box-sizing: border-box; /* Garante que o padding e a border não afetem a largura do botão */
+}
+
+.btnAdd button:hover {
+    background-color: #218838;
+}
+
+.btnAdd button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+/* CSS para o botão de remover */
+.btnRemover img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 20px; /* Ajuste o tamanho conforme necessário */
+    cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
+    display: block; /* Remove qualquer espaço extra ao redor da imagem */
+    margin: 0 auto; /* Centraliza a imagem no div, se necessário */
+}
+
